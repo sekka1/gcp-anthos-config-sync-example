@@ -1,0 +1,2 @@
+resources:
+- overlays/cluster-1/cert-manager
