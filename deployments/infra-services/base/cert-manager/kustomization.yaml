@@ -1,9 +1,9 @@
 resources:
 - namespace.yaml
 
-helmCharts:
-- name: cert-manager
-  repo: https://charts.jetstack.io
-  version: v1.5.4
-  releaseName: cert-manager
-  namespace: cert-manager
+# helmCharts:
+# - name: cert-manager
+#   repo: https://charts.jetstack.io
+#   version: v1.5.4
+#   releaseName: cert-manager
+#   namespace: cert-manager
