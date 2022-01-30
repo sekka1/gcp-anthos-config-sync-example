@@ -1,9 +1,9 @@
 resources:
 - base
 
-namespace: cert-manager
+# namespace: cert-manager
 
-patches:
-- path: ignore-deployment-mutation-patch.yaml
-  target:
-    kind: Deployment
+# patches:
+# - path: ignore-deployment-mutation-patch.yaml
+#   target:
+#     kind: Deployment
