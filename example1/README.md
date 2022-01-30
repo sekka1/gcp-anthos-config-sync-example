@@ -10,4 +10,5 @@ https://cloud.google.com/anthos-config-management/docs/how-to/nomos-command
 ```
 nomos hydrate \
     --source-format=unstructured \
-    --output=OUTPUT_DIRECTORY
+    --output=./nomos-output
+```

@@ -9,6 +9,6 @@ spec:
     # We recommend securing your source repository.
     # Other supported secretType: `ssh`, `cookiefile`, `token`, `gcenode`.
     secretType: none
-    policyDir: example1/
+    policyDir: example1
     syncBranch: main
   sourceFormat: unstructured
