@@ -1,4 +1,4 @@
-namespace: team-a
+# namespace: team-a
 
 resources:
 - ../base
