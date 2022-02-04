@@ -3,12 +3,7 @@ kind: ConfigManagement
 metadata:
   name: config-management
 spec:
-  git:
-    # Change this to point to your repo
-    syncRepo: https://github.com/sekka1/gcp-anthos-config-sync-example
-    # We recommend securing your source repository.
-    # Other supported secretType: `ssh`, `cookiefile`, `token`, `gcenode`.
-    secretType: none
-    policyDir: example3
-    syncBranch: main
-  sourceFormat: unstructured
+  # This enables the RootSync APIs
+  # This will install the RootSync's CRDs
+  # https://cloud.google.com/anthos-config-management/docs/how-to/migrate-multi-repo
+  enableMultiRepo: true

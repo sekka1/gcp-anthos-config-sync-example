@@ -1,0 +1,17 @@
+# doc: https://cloud.google.com/anthos-config-management/docs/how-to/migrate-multi-repo
+---
+apiVersion: configsync.gke.io/v1beta1
+kind: RootSync
+metadata:
+  name: root-sync
+  namespace: config-management-system
+spec:
+  git:
+    auth: none
+    branch: main
+    dir: example3
+    period: 15s
+    repo: https://github.com/sekka1/gcp-anthos-config-sync-example
+    revision: HEAD
+    secretRef: {}
+  override: {}
